@@ -23,3 +23,15 @@ La landing no contiene:
 
 VERSIÓN 1.2: las imágenes están incrustadas dentro de index.html en Base64.
 No depende de una carpeta /assets, evitando imágenes rotas al publicar.
+
+
+VERSIÓN 1.3:
+- La portada del hero ahora se identifica como PRODUCTO DIGITAL · PDF.
+- Se oculta visualmente el pie provisional de la portada.
+- Se aclara que no se envía ningún producto físico.
+
+
+VERSIÓN 1.4 FINAL MOCKUP:
+- Hero actualizado con mockup final del producto digital en tablet + fichas.
+- Mockup incrustado en HTML para evitar imágenes rotas.
+- Checkout Hotmart con Order Bump permanece configurado.
