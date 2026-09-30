@@ -19,3 +19,7 @@ La landing no contiene:
 - escasez artificial;
 - precio tachado ficticio;
 - alegaciones de certificación o resultados garantizados.
+
+
+VERSIÓN 1.2: las imágenes están incrustadas dentro de index.html en Base64.
+No depende de una carpeta /assets, evitando imágenes rotas al publicar.
