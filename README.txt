@@ -35,3 +35,9 @@ VERSIÓN 1.4 FINAL MOCKUP:
 - Hero actualizado con mockup final del producto digital en tablet + fichas.
 - Mockup incrustado en HTML para evitar imágenes rotas.
 - Checkout Hotmart con Order Bump permanece configurado.
+
+
+VERSIÓN 1.5 PIXEL:
+- Meta Pixel ID configurado: 2040796516577567
+- PageView y ViewContent se disparan tras consentimiento.
+- ClickCheckout se registra como evento personalizado al pulsar un CTA.

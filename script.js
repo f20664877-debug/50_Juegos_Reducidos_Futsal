@@ -1,7 +1,7 @@
 
 // CONFIGURACIÓN
 const CHECKOUT_URL = "https://pay.hotmart.com/H107828809M?checkoutMode=10";
-const META_PIXEL_ID = ""; // rellenar cuando el dataset/pixel esté definido
+const META_PIXEL_ID = "2040796516577567"; // rellenar cuando el dataset/pixel esté definido
 
 const TRACK_PARAMS = ["utm_source","utm_medium","utm_campaign","utm_content","utm_term","fbclid"];
 
@@ -18,6 +18,7 @@ function buildCheckoutUrl(){
 
 document.querySelectorAll(".checkout-link").forEach(a => {
   a.addEventListener("click", (e) => {
+    if (window.fbq) fbq("trackCustom", "ClickCheckout", {content_name:"50 Juegos Reducidos para Futsal"});
     const url = buildCheckoutUrl();
     if (url === "#") {
       e.preventDefault();
